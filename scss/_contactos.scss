@@ -1,0 +1,21 @@
+.fondocontacto{
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    .titulocontacto{
+        font-weight: 600;
+        font-size : $titulo;
+    }
+
+    .textonumero{
+        font-weight: 600;
+        font-size: $textogeneral;
+    
+    }
+
+    .mapa{
+        border-radius: 20px;
+        
+        
+        }
+}

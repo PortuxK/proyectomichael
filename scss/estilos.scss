@@ -1,0 +1,143 @@
+
+@import "variables.scss";
+@import "tarjetas.scss";
+@import "contactos.scss";
+
+
+
+
+
+
+
+
+.barratop{
+    background-color: $color-primary;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+min-height: 100%;
+display: flex;
+flex-direction: column;
+background-color: #E3E3E3;
+font-family: 'Onest', sans-serif;
+
+}
+
+
+.tamanologo{
+    height: 80px;
+
+}
+
+.logofooter{
+    height: 80px;
+}
+
+.hovermenu{
+color: blue;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+
+    
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    .navbar-toggler {
+    transition: none;
+    }
+}
+.navbar-toggler:hover {
+    text-decoration: none;
+    background-color: rgb(40, 40, 40);
+    border-radius: 50rem;
+    transition: 500ms;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(236, 122, 0, 0.998);
+    transition: 1000ms;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: $color-primary;
+    margin-top: auto;
+
+}
+
+
+
+.RRSS a{
+text-decoration: none;
+    
+    
+}
+
+.fondotarjetas{
+    padding-bottom: 40px;
+
+}
+
+.tarjeta1{
+    height: 100%;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+.separacion{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+.tituloproductos{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px ){
+    .textfooter{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
