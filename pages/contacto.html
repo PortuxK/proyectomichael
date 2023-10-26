@@ -45,43 +45,60 @@
 </header>
 
 
-<section class="d-flex justify-content-center">
-    <div class="card col-sm-6 p-3">
-    <div class="mb-3">
-        <h4>Contacto</h4>
-    <div class="mb-2">
-        <form action= "">
-    <div class="mb-2">
-        <label for="Nombre">Nombre</label>
-        <input type="text" class="form-control" name="Nombre" id="Nombre" placeholder="Ej: Michael">
+<section class="d-flex justify-content-center mt-auto">
+
+    <div class="container row mt-4">
+        <div class="text-center justify-content-center col-12 col-lg-6">
+            <h1 class="titulocontacto">Nuestros Servicios</h1>
+            <p class="textocontacto">
+                En DeepGamerX, nos dedicamos a ofrecer el mejor servicio técnico para tus equipos informáticos, cámaras web y redes. Contamos con un equipo de profesionales altamente cualificados y con amplia experiencia en el sector. Te ofrecemos soluciones rápidas, eficientes y personalizadas para resolver cualquier problema que tengas con tu computadora, cámara web o red. Ya sea que necesites reparar, actualizar, instalar o configurar tu equipo, cámara o red, nosotros te lo hacemos con la máxima calidad y garantía. Además, te brindamos asesoramiento y soporte técnico continuo para que puedas aprovechar al máximo tus dispositivos. No lo dudes más y contacta con nosotros. Estamos a tu disposición las 24 horas del día, los 7 días de la semana. DeepGamerX, tu servicio técnico de confianza.</p> 
+        </div>
+    
+    
+    <div class="col-12 col-lg-6">
+        <form action="404.html">
+    
+            <div class="mb-3">
+                <h2 class="titulocontacto">Contacto</h2>
+            <div class="mb-2">
+    
+                <div class="mb-2">
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" class="form-control" name="Nombre" id="Nombre" placeholder="Ej: DeeP "required>
+                </div>
+    
+                <div>
+                    <label for="Nombre">Apellido</label>
+                    <input type="text" class="form-control" name="Apellido" id="Apellido" placeholder="Ej: GamerX "required>
+                </div>
+    
+                <div>
+                    <label for="Nombre">Correo</label>
+                    <input type="text" class="form-control" name="Correo" id="Correo" placeholder="Ej: DeepgamerX.cl@gmail.com"required>
+                </div>
+    
+                <div class="mb-2 ">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" class="form-control" placeholder="Escriba su Mensaje Aqui!"required></textarea>
+                </div>
+    
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-warning">Enviar</button>
+                </div>
+        </form>
     </div>
-    <div>
-        <label for="Nombre">Apellido</label>
-        <input type="text" class="form-control" name="Apellido" id="Apellido" placeholder="Ej: Macero">
-    </div>
-    <div>
-        <label for="Nombre">Correo</label>
-        <input type="text" class="form-control" name="Correo" id="Correo" placeholder="Ej: DeepgamerX@mail.com">
-    </div>
-    </div>
-    </div>
-    <div class="mb-2">
-        <label for="mensaje"></label>
-        <textarea name="mensaje" id="mensaje" class="form-control" placeholder=" Ej: Escriba su Mensaje Aqui!"></textarea>
-    </div>
-    <div>
-        <button class="btn btn-primary">Enviar</button>
+
     </div>
 
 
-    </form>
     </div>   
     </section>
+    
 
     <footer class="fondofooter">
         <div class="container d-flex justify-content-between align-items-center">
         <div>
-            <img src="../assest/logo200.png" height="80px" alt="">
+            <a class="navbar-brand" href="../index.html"><img class="tamanologo" class="nav-link"  src="../assest/logo200.png" height="80px" alt=""></a>
         </div>
         <p class="text-white textfooter">&copy; 2023 Tu Sitio Web. Todos los derechos reservados.</p>
 

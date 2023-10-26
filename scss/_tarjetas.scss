@@ -10,6 +10,7 @@
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 10px;
     margin: 0px;
+    height: 100%;
 
     .imagentarjeta{
         display: flex;
@@ -40,6 +41,7 @@
         background-color: rgb(237, 237, 237);
         font-size: 16px;
         font-weight: 400;
+        width: 100%;
 
         &:hover{
             border-radius: 10px;

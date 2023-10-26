@@ -2,10 +2,7 @@
     padding-bottom: 30px;
     padding-top: 30px;
 
-    .titulocontacto{
-        font-weight: 600;
-        font-size : $titulo;
-    }
+
 
     .textonumero{
         font-weight: 600;
@@ -18,4 +15,13 @@
         
         
         }
+}
+.titulocontacto{
+    font-weight: 600;
+    font-size : $titulo;
+    text-align: left;
+}
+
+.textocontacto{
+    text-align: left;
 }

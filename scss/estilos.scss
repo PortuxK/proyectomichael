@@ -134,6 +134,17 @@ li{
     
 }
 
+.altobanner{
+    object-fit: cover;
+
+}
+@media screen and (max-width: 768px ){
+    .altobanner{
+        height: 300px;
+    }
+    
+}
+
 
 
 

@@ -10,6 +10,7 @@
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 10px;
   margin: 0px;
+  height: 100%;
 }
 
 .card1 .imagentarjeta {
@@ -40,6 +41,7 @@
   background-color: rgb(237, 237, 237);
   font-size: 16px;
   font-weight: 400;
+  width: 100%;
 }
 
 .card1 .botontarjeta:hover {
@@ -58,11 +60,6 @@
   padding-top: 30px;
 }
 
-.fondocontacto .titulocontacto {
-  font-weight: 600;
-  font-size: 30px;
-}
-
 .fondocontacto .textonumero {
   font-weight: 600;
   font-size: 16px;
@@ -70,6 +67,16 @@
 
 .fondocontacto .mapa {
   border-radius: 20px;
+}
+
+.titulocontacto {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: left;
+}
+
+.textocontacto {
+  text-align: left;
 }
 
 .barratop {
@@ -172,6 +179,16 @@ li {
 @media screen and (max-width: 768px) {
   .textfooter {
     display: none;
+  }
+}
+.altobanner {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .altobanner {
+    height: 300px;
   }
 } 
 
